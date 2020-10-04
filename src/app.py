@@ -74,6 +74,7 @@ def delete_task(id):
     db.session.delete(task)
     db.session.commit()
     return
+
 if __name__ == "__main__":
     app.run(debug=True)
 
